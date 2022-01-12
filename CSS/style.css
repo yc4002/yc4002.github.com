@@ -1,0 +1,144 @@
+body {
+	background-color: lavender;
+	color: #82A4F4;
+	font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    /*margin: 2% 10% 2% 10%; top, right, bottom, left */
+    background-image: ;
+    background-position: ;
+    background-repeat: no-repeat;
+    background-width: 100% auto;
+}
+
+a {
+	color: white;
+	font-family:'Oswald', sans-serif ;
+}
+
+h1 {
+	color: #A153F8;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-shadow: 5px 5px 10px silver;
+	font-size: 45px;
+}
+
+p{
+    font-size: 16px;
+    color: #A41BF7;
+	font-family: 'Oswald', sans-serif;
+}
+
+a:hover{
+  color:  ;
+  transition: ;
+ }
+
+ #header{
+ 	width: ;
+ 	display: ;
+ 	padding-left: ;
+ 	padding-right: ;
+ 	padding-top: ;
+ 	padding-bottom: ;
+ 	justify-content: space-between;
+ }
+
+ .resume-button{
+ 	font-family: ;
+ 	font-weight: ;
+ 	letter-spacing: ;
+ 	border-radius: px;
+	border: px solid black;
+	background: ;
+	width:  px;
+	height: px;
+	transition: ms ease all;
+ }
+
+ #container{
+	flex-direction: row;
+	width: 100%;
+	padding: 2% 7% 0% 7%;
+	height: 50%;
+	background: green;
+	display: inline-flex;
+}
+
+.column-left{
+	float: left;
+	width: 28%;
+	height: 80%;
+	border-radius: 20px;
+	font-size: 14px;
+	padding: 3%;
+	background: pink;
+}
+
+.column-middle{
+	width: 28%;
+	height: 80%;
+	border-radius: 20px;
+	font-size: 14px;
+	padding: 3%;
+	background:  blue;
+}
+
+.column-right{
+	float: right;
+	width: 28%;
+	height: 80%;
+	border-radius: 20px;
+	font-size: 14px;
+	padding: 3%;
+	background:  blue;
+}
+
+ h1 {
+ 	font-family: ;
+
+ }
+
+ p{
+ 	font-size: ;
+ 	line-height: ;
+ }
+
+ @media screen and (min-width:  780px)
+
+
+#bioNlinks {
+	width: 100%;
+    padding: 2% 0% 0% 0%; /*padding-top, padding-right, padding-bottom, and padding-left */
+    align-items: center;
+    display: inline-flex;
+}
+
+
+.bioBox {
+
+  width: 60%;
+  line-height:24px;
+  height: auto;
+  flex-grow: 1; /* makes all things inside container equal */
+  position: fixed;
+  align-content: space-around;
+}
+
+
+.linkBox {
+	width: 20% ;
+	height: ;
+	text-align: center;
+	margin-top: ;
+	padding-left: ;
+
+}
+
+.links{
+  color: black;
+  font-size: 14px;
+  display:block;
+  text-align:left;
+
+}
